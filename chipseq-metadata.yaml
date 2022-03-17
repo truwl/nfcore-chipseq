@@ -1,0 +1,18 @@
+name: nf.core chipseq
+identifier: WF_d16a9f.1d
+description: ChIP-seq peak-calling, QC and differential analysis pipeline.
+softwareVersion:
+  versionName: 1.2.2
+metadataStatus: Released
+workflowStatus: Released
+workflowFile: chipseq.wdl
+repoName: nfcore-chipseq
+gitTag: master
+inputsTemplate: inputs.json
+executable: true
+current: true
+codeRepository:
+  URL: https://github.com/truwl/nfcore-chipseq/
+WebSite:
+- URL: https://github.com/nf-core/chipseq
+  name: nf-core/chipseq
